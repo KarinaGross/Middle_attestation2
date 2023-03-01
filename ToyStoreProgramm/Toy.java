@@ -1,11 +1,11 @@
 
-public class ToyNew {
+public class Toy {
     private int id;
     private String name;
     private int amount;
     private int weight; 
 
-    public ToyNew(String name, int amount, int weight) {
+    public Toy(String name, int amount, int weight) {
         this.name = name;
         this.amount = amount;
         this.weight = weight;

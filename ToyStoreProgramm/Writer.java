@@ -10,7 +10,7 @@ public class Writer {
             FileWriter fw = new FileWriter(f, true);
             PrintWriter pw = new PrintWriter(fw);
 
-            ToyNew toy = LotteryNew.getPrize();
+            Toy toy = Lottery.getPrize();
             if (toy.getAmount() != 0) {
                 toy.setId(id);
                 String s = toy.toString();
